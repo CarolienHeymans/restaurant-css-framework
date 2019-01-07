@@ -5,6 +5,9 @@ body {
 .container {
   background-color: #f1f3f3; }
 
+.pagination {
+  padding: 20px; }
+
 /* XS screens */
 /* sm screens */
 /* md screens */
