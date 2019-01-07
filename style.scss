@@ -1,16 +1,60 @@
+html {
+    box-sizing: content-box;
+}
+
 body {
     background: url("img/sushibackground.jpg")no-repeat fixed;
     background-size: cover;
 }
-.container{
-    background-color: rgb(241, 243, 243);
+
+#navbar {
+    background-color: #020301;
 }
-.pagination{
+
+#header {
+    background-color: #020301c4;
+    padding: 10px;
+}
+
+.nav-link {
+    font-size: 1em;
+    color: rgb(203, 206, 204);
+}
+
+#navbaricon {
+    font-size: 1em;
+    color: rgb(203, 206, 204);
+}
+
+.container {
+    background-color: #020301c4;
+}
+
+.contact {
     padding: 20px;
-   
+    color: rgb(203, 206, 204);
 }
+
+#about,
+#news,
+#promo {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    outline: 1px solid #020301;
+}
+
+.pagination {
+    padding: 20px;
+
+}
+
+
+.form-row {
+    padding: 20px;
+}
+
 /* XS screens */
-@media (max-width: 575.98px) { }
+@media (max-width: 575.98px) {}
 
 /* sm screens */
 @media (min-width: 576px) {}
@@ -19,4 +63,10 @@ body {
 @media (min-width: 576px) {}
 
 /* lg screens */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+    #logo,
+    #banner {
+        height: 250px;
+    }
+}
