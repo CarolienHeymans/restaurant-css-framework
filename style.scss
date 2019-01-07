@@ -1,0 +1,19 @@
+body {
+    background: url("img/sushibackground.jpg")no-repeat fixed;
+    background-size: cover;
+}
+.container{
+    background-color: rgb(241, 243, 243);
+}
+
+/* XS screens */
+@media (max-width: 575.98px) { }
+
+/* sm screens */
+@media (min-width: 576px) {}
+
+/* md screens */
+@media (min-width: 576px) {}
+
+/* lg screens */
+@media (min-width: 992px) {}
