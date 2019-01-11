@@ -1,2 +1,2 @@
-# bootstrap-exercise
-https://carolienheymans.github.io/bootstrap-exercise/
+# Restaurant exercise
+https://carolienheymans.github.io/restaurant-css-framework/
